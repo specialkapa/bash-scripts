@@ -1,0 +1,12 @@
+2024-02-21 08:47:43: removed ad-hoc copying of wheels into sonatiner apps subdirectories in TNP_Atlas monorepo
+2024-02-21 10:43:44: added GHB process flow in plugins
+2024-02-21 16:41:27: updated WSL set up documentation
+2024-02-21 16:43:55: added multi-repo architecture warning and choise to opti in for mono-repo architecture based set up, added better user feedback and some docstrings
+2024-02-21 16:44:02: show
+2024-02-21 16:44:49: arranged meetign with deloitte for ATLAS walkthrough
+2024-02-21 16:45:16: fixed bug in app and behav PD calculation in GHB process flow
+2024-02-22 08:02:28: updated Notion so that it redirects user to documentation in WSl set up repo
+2024-02-22 16:17:19: Deloitte meeting around version control + access rights
+2024-02-22 16:17:32: fixed socket issue
+2024-02-22 16:17:47: built new image and pushed
+2024-02-22 16:18:02: pushed branch on TNP_Atlas for review
