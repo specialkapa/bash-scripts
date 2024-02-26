@@ -4,7 +4,6 @@
     {
       "alignment": "left",
       "segments": [
-
 	    {
 		  "type": "python",
           "foreground": "#f71483",
@@ -15,9 +14,10 @@
             "type": "session",
             "style": "plain",
             "foreground": "#c2acfc", 
-			"template": " \u250c \uebc9 {{ .UserName }}:",
+			"template": "\u250c \uebc9 {{ .UserName }}:",
             "properties": {
-                "prefix": "\ue0cc"
+                "prefix": "\ue0cc",
+				"postfix": ""
             }
         },
         {
@@ -26,6 +26,8 @@
             "foreground": "#76b3ea",
 			"properties": {
 				"style": "full"
+				"prefix": "",
+				"postix": ""
 			}
         },
 		{

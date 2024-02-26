@@ -14,3 +14,9 @@
 2024-02-23 17:01:52: removed docker desktop from windows entirely, and added option to opt-in for purely WSL installation of docker in wsl set up script
 2024-02-23 17:02:24: explored multi-stage builds and dive CLI app for reducing image size
 2024-02-23 18:39:34: switched to TUI tools to improve performance. I am very happy with it
+2024-02-26 09:21:43: investigated low post affordability ECLs
+2024-02-26 17:28:30: finalised GHB VM and it is up and running
+2024-02-26 17:28:56: brought updates from GHB project to TNP project
+2024-02-26 17:29:25: took care of some audit queries around affordability calculatioN
+2024-02-26 17:30:01: produced new sqlite db for GHB data based on new ATLAS satabase and transfered over to TNP side
+2024-02-26 17:33:50: started parametrising the output DBs, shcemas etc for the GHB process flow help deployment chart
