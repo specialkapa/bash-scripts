@@ -10,3 +10,7 @@
 2024-02-22 16:17:32: fixed socket issue
 2024-02-22 16:17:47: built new image and pushed
 2024-02-22 16:18:02: pushed branch on TNP_Atlas for review
+2024-02-23 17:01:03: improved feedback/interaction in build_wheels.sh and adidng option to build wheels for a subset of plugins only
+2024-02-23 17:01:52: removed docker desktop from windows entirely, and added option to opt-in for purely WSL installation of docker in wsl set up script
+2024-02-23 17:02:24: explored multi-stage builds and dive CLI app for reducing image size
+2024-02-23 18:39:34: switched to TUI tools to improve performance. I am very happy with it
