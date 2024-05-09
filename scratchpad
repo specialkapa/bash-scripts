@@ -1,0 +1,17 @@
+# use --flow-name option if needed to filter by flow name
+ids=$(prefect deployment ls | awk 'NR > 3 {print $4}')
+
+# Declare an array and populate it with the IDs
+declare -a id_array=($ids)
+
+# Optional: Print the array to verify
+for id in "${id_array[@]}"; do
+    echo $id
+done
+
+# to delete fetched flow deployments use the below
+for id in "${id_array[@]}"; do
+    echo "Deleting deployment with ID: $id"
+    prefect deployment delete "$id"
+    echo "Deleted deployment with ID: $id"
+done
