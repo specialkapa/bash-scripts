@@ -20,3 +20,17 @@
 2024-02-26 17:29:25: took care of some audit queries around affordability calculatioN
 2024-02-26 17:30:01: produced new sqlite db for GHB data based on new ATLAS satabase and transfered over to TNP side
 2024-02-26 17:33:50: started parametrising the output DBs, shcemas etc for the GHB process flow help deployment chart
+2024-02-27 15:52:02: found and applied fix for  bug in application scorecard (max_applicant age) + data issue with original asset term not being static
+2024-02-27 15:52:13: generated some data for auditors
+2024-02-27 15:53:04: discussed affordability calculation with auditors, they want either portfolio level churn rate or decoupling of churn rate from affordability calculation
+2024-02-27 15:53:35: tested changes made to update data extraction config on TNP GHB process flow project
+2024-02-28 07:18:07: managed to run PM end to end. fiddled with memory allocation on .wslconfig
+2024-02-28 07:18:30: deployment almost ready to run and parametrised for testing an true deployment
+2024-02-28 07:49:12: deployment almost ready to run and parametrised for testing an true deploymentcls
+2024-03-01 12:47:18: switched form polars database write back-end to pandas to improve execution times
+2024-03-01 12:47:40: enhanced the bash-hackz documentation
+2024-03-01 12:48:10: updated socket messaging to send task name only (no task run id)
+2024-03-01 12:48:27: sending final flow completion message via socket
+2024-03-01 12:48:37: testing updated GHB process flow deployment
+2024-03-04 08:46:36: working on refactoring the database module in tnp_utilities
+2024-03-13 17:30:55: learned how to use prefect hooks properly
