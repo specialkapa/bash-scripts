@@ -25,7 +25,7 @@
 			"style": "powerline",
             "foreground": "#76b3ea",
 			"properties": {
-				"style": "full"
+				"style": "full",
 				"prefix": "",
 				"postix": ""
 			}
